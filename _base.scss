@@ -1,12 +1,12 @@
 @use "./variables" as v;
 
 body {
-  color: v.$primary-color;
-  background: v.$secondary-color;
+  color: v.$txt-color;
+  background: v.$bg-color;
   font-family: v.$main-font;
 }
 
 ::selection {
-  background-color: v.$primary-color;
-  color: v.$secondary-color;
+  background-color: v.$txt-color;
+  color: v.$bg-color;
 }
